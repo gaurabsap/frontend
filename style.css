@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 3px solid yellow; */
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url('moon.jpeg');
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    transition: all;
+}
+
+.navigator {
+    position: relative;
+    top: -30px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    /* border: 3px solid red; */
+}
+
+a {
+    padding: 10px 20px;
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: all 1s;
+}
+
+/* a::before {
+    position: absolute;
+    content: "";
+    padding: 10px 20px;
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+a::after{
+    padding: 10px 20px;
+    margin-right: 35px;
+    color: white;
+    text-decoration: none;
+} */
+
+
+a:hover
+ {
+    border: 2px solid red;
+}
+
+.logo:hover, .logo1:hover {
+    cursor: pointer;
+}
+.second {
+    height: 500px;
+    text-align: center;
+    /* border: 3px solid rgb(187, 187, 209); */
+}
+
+.second-text {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 6900;
+    color: red
+}
+
+.input-text {
+    width: 700px;
+    height: 58px;
+    font-size: 23px;
+    padding-left: 10px;
+    border: 2px solid #8B008B;
+    border-radius: 5px;
+    background-color: lightcyan;
+    margin-left: 170px;
+    transition: all 1s;
+}
+
+.input-text:focus {
+    outline: none;
+    border: 1px solid red;
+    color: black;
+    height: 65px;
+}
+
+.last-button {
+    font-size: 17px;
+    padding: 17px 20px;
+    border: 5px;
+    color: white;
+    background-color: red;
+    position: relative;
+    right: 123px;
+    top: -3px;
+    transition: all 1s;
+}
+
+.last-button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
