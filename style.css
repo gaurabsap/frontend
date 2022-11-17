@@ -188,5 +188,36 @@ a:hover
     
 }
 
+@media screen and (max-width: 360px){
+    .nav a{
+        position: relative;
+        right: 20px;
+        margin-right: -20px;
+        font-size: 5px;
+    }
+    .logo{
+        position: relative;
+        left: -10px;
+        font-size: 10px;
+    }
+    .second-text{
+        font-size: 25px;
+    }
+    .input-text{
+        width: 250px;
+        height: 45px;
+        position: relative;
+        left: -100px;
+    }
+    .last-button{
+        height: 42px;
+        position: relative;
+        top: -44px;
+        left: 95px;
+        padding: 5px 5px ;
+    }
+
+    
+}
 
 
