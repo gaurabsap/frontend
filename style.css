@@ -13,8 +13,7 @@
 
 body {
     font-family: 'poppins', sans-serif;
-    transition: all;
-    position: fixed;
+    transition: all 1s;
 }
 
 .navigator {
