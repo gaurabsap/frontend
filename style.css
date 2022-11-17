@@ -65,7 +65,9 @@ a:hover
     text-align: center;
     /* border: 3px solid rgb(187, 187, 209); */
 }
-
+.second.nav{
+    animation-delay: 0.5s;
+}
 .second-text {
     margin-top: 140px;
     margin-bottom: 50px;
@@ -109,4 +111,19 @@ a:hover
     cursor: pointer;
     opacity: 0.5;
 }
+
+.nav {
+    opacity: 0;
+    transform: rotateY(100deg);
+    animation: anime 1s linear forwards;
+}
+@keyframes anime {
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+    
+}
+
+
 
